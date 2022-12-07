@@ -11,3 +11,69 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  padding: 10px;
+  margin: 5px;
+}
+
+.btn {
+  height: 36px;
+  width: auto;
+  border: none;
+  color: white;
+  background-color: #22A7F0;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px 10px;
+}
+
+.btn-2 {
+  height: 36px;
+  width: auto;
+  border: none;
+  color: black;
+  background-color: #89C4F4;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 5px 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.source {
+  flex-direction: row;
+  display: inline-block;
+  margin: 0 30px;
+  height: 200px;
+  width: 200px;
+  background-color: #89C4F4;
+  border: 1px solid cornflowerblue;
+}
+
+.path {
+  flex-direction: row;
+  display: inline-block;
+  margin: 0 30px;
+  height: 200px;
+  width: 200px;
+  background-color: forestgreen;
+  border: 1px solid greenyellow;
+}
+
+button {
+  height: 20px;
+  width: 80px;
+  margin: 10px;
+}
+
+input {
+  margin: 10px;
+  height: 30px;
+}
+
+input.highlighted {
+  border: 3px solid red;
+}

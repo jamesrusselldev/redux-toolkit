@@ -1,13 +1,15 @@
 import CakeView from "./features/cake/cakeView";
+import ClickMap from "./features/clickMap/clickMap";
 import CookiesView from "./features/cookies/cookiesView";
 import GiftsView from "./features/gifts/gitsView";
 import IceCreamView from "./features/icecream/iceCreamView";
+import StockView from "./features/stock/StockView";
 import UsersView from "./features/user/usersView";
 
 function App() {
   return (
     <div className="App">
-      <div className="container ">
+      {/* <div className="container ">
         <CakeView />
       </div>
       <div className="container ">
@@ -17,11 +19,15 @@ function App() {
         <CookiesView />
       </div>
       <div className="container ">
-        <UsersView />
-      </div>
-      <div className="container ">
         <GiftsView />
       </div>
+      <div className="container">
+        <StockView/>
+      </div>
+      <div className="container ">
+        <UsersView />
+      </div> */}
+      <ClickMap/>
     </div>
   );
 }
